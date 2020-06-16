@@ -80,14 +80,14 @@ footer {
 
 /* YouTube 動画　をフレキシブルにするための CSS */
 
-.movie-wrap {
+.youtube {
      position: relative;
      padding-bottom: 56.25%; /* 16:9の場合*/
      height: 0;
      overflow: hidden;
 }
 
-.movie-wrap iframe {
+.youtube iframe {
      position: absolute;
      top: 0;
      left: 0;
